@@ -2,15 +2,17 @@
 
 ## Unreleased
 
-<<<<<<< HEAD
+## Haul 1.0.7 — 09-Nov-2026
+
+- Fixed: the Activity and diagnostics window and every other window now fit the screen in short windows and scroll inside, instead of being cut off; long paths wrap.
+
 - Fixed: files did not transfer with rclone 1.75 (Haul passed an option that version no longer has); any message rclone prints is now shown and logged instead of "stopped".
 - Every error and crash now reaches the creator's dashboard (batched, anonymous: user name, e-mail and IP addresses removed); crash reports include the crashed thread from macOS's own report.
 - Small windows: each pane fits its columns to its width, labels fold into icons, the transfer list stays under a third of the window — nothing overlaps.
 - New: tiles view per pane, free space on a server in the pane's footer, an overall progress bar for transfers.
 - The light icon is now the app's icon.
-=======
+
 ## Haul 1.0.6 — 09-Nov-2026
->>>>>>> origin/main
 
 - Fixed: "Restart to update" and quitting crashed on macOS 27 while closing the window; Haul now quits cleanly and the update installs and reopens.
 

@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+## Haul 1.0.14 — 09-Nov-2026
+
+- FTP much faster, like FileZilla: every connection uploads, checks no longer hold connections, no re-check after each upload.
 ## Haul 1.0.13 — 09-Nov-2026
 
 - Finder disks: wait up to a minute for slow FTP logins, mount beside a disk macOS won't release, and say why when a mount fails.

@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## Haul 1.0.6 — 09-Nov-2026
+
+- Fixed: "Restart to update" and quitting crashed on macOS 27 while closing the window; Haul now quits cleanly and the update installs and reopens.
+
 ## Haul 1.0.5 — 09-Nov-2026
 
 - New app icon in the same style as the creator's other apps (dark tile, amber glow, amber crate, teal arrows).

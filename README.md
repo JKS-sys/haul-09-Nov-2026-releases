@@ -1,5 +1,5 @@
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/haul-dark.svg"><img src="docs/haul-light.svg" width="128" alt="Haul"></picture>
+  <img src="docs/haul-icon.png" width="128" height="128" alt="Haul app icon">
 </p>
 
 <h1 align="center">Haul</h1>
@@ -29,10 +29,20 @@ Haul is a Mac app for Apple silicon (macOS 11 or newer). Servers need rclone, wh
 
 **Servers as disks.** Any server appears in Finder as a disk — no macFUSE, no kernel extension.
 
-**And more.** Share links, quick look of remote text files, Open in Terminal for SFTP, import your rclone servers, hidden files, favourites, right-click menus everywhere, 21 transfer sounds each with its own drawing, light and dark.
+**And more.** Share links, quick look of remote text files, Open in Terminal for SFTP, import your rclone servers, hidden files, favourites, right-click menus everywhere, 110 sounds each with its own drawing, light and dark.
 
 ## Free and Pro
 
 Browsing, copying and moving on every kind of server is free. Haul Pro adds unlimited servers (free: 3), syncs, compares, disks and links, two-way sync, and up to 32 files at once.
 
 ⭐ **If Haul helps you, please star this repository.**
+
+## Made by
+
+**Jagadeesh Kumar S** — creator · Velachery, Chennai, India · [youtube.com/@JKS-sys](https://youtube.com/@JKS-sys) · JKS.sys@icloud.com · support: [razorpay.me/@NSBJKS](https://razorpay.me/@NSBJKS)
+
+## Licence
+
+Free for personal use. The code is © 2026 Jagadeesh Kumar S — reading it is fine; copying, modifying or redistributing it is not permitted (see [LICENSE](LICENSE)). Parts by others keep their own licences: see [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt).
+
+<p align="center">⭐ <b>Please star this repository</b> if Haul saved you time.<br><sub>Haul 1.0.3</sub></p>

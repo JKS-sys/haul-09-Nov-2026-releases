@@ -1,1 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="128" height="128" aria-hidden="true"><defs><linearGradient id="hlg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2fd6c0"/><stop offset="1" stop-color="#2f6fe0"/></linearGradient><linearGradient id="hla" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f2c14e"/><stop offset="1" stop-color="#e07a1f"/></linearGradient></defs><rect x="8" y="8" width="104" height="104" rx="26" fill="url(#hlg)"/><path class="lg-tag" d="M38 46l22-11 22 11v26L60 83 38 72z" fill="#fdf8ec" stroke="#0b2d4f" stroke-width="4" stroke-linejoin="round"/><path d="M38 46l22 11 22-11M60 57v26" fill="none" stroke="#0b2d4f" stroke-width="4" stroke-linejoin="round"/><path class="lg-wave" d="M22 30h30M44 22l8 8-8 8M98 92H68M76 84l-8 8 8 8" fill="none" stroke="url(#hla)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e3e6ea"/></linearGradient>
+<linearGradient id="hlt" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8d77a"/><stop offset="1" stop-color="#f2c14e"/></linearGradient>
+<linearGradient id="hll" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f2c14e"/><stop offset="1" stop-color="#e8962e"/></linearGradient>
+<linearGradient id="hlr" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e8962e"/><stop offset="1" stop-color="#e07a1f"/></linearGradient>
+<linearGradient id="hls" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2fd6c0"/><stop offset="1" stop-color="#6cb6ff"/></linearGradient>
+<radialGradient id="gl" cx=".5" cy=".42" r=".55"><stop offset="0" stop-color="#f2c14e" stop-opacity=".22"/><stop offset="1" stop-color="#f2c14e" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x="100" y="100" width="824" height="824" rx="185" fill="url(#bg)" stroke="#cfd2d6" stroke-width="6"/>
+<rect x="100" y="100" width="824" height="824" rx="185" fill="url(#gl)"/>
+<g transform="translate(152 152) scale(6)">
+<path d="M60 26 92 42 60 58 28 42z" fill="url(#hlt)" stroke="#7a3f00" stroke-width="3" stroke-linejoin="round"/>
+<path d="M28 42 60 58v36L28 78z" fill="url(#hll)" stroke="#7a3f00" stroke-width="3" stroke-linejoin="round"/>
+<path d="M92 42 60 58v36l32-16z" fill="url(#hlr)" stroke="#7a3f00" stroke-width="3" stroke-linejoin="round"/>
+<path d="M44 34l32 16v10" fill="none" stroke="#7a3f00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".55"/>
+<path d="M12 70C8 40 26 16 52 10M44 4l9 6-7 9" fill="none" stroke="url(#hls)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M108 50c4 30-14 54-40 60M76 116l-9-6 7-9" fill="none" stroke="url(#hls)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

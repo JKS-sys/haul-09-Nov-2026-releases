@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+## Haul 1.0.12 — 09-Nov-2026
+
+- Unfinished transfers resume by themselves after a quit, crash or update.
+- About the author: call directly on +91 73972 85837 (WhatsApp is not checked).
+- About › The creator: "Open to work" — full-stack roles, remote or in Chennai, ₹50,000 a month take-home (about ₹7–7.5 lakh CTC), with Email, WhatsApp and Résumé buttons.
+
 ## Haul 1.0.11 — 09-Nov-2026
 
 - Disks in Finder come back by themselves when Haul opens again (after quitting or an update), and a disk left behind by a crash or a forced quit is cleared first, so it can be mounted again instead of failing.

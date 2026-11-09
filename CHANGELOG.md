@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## Haul 1.0.11 — 09-Nov-2026
+
+- Disks in Finder come back by themselves when Haul opens again (after quitting or an update), and a disk left behind by a crash or a forced quit is cleared first, so it can be mounted again instead of failing.
+
 ## Haul 1.0.10 — 09-Nov-2026
 
 - Even faster: several selected items now go across in ONE rclone run (one start-up and one login, every file in parallel) instead of one run each; a single file skips listing the destination folder; fast listing for S3, B2 and Drive.

@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## Haul 1.0.9 — 09-Nov-2026
+
+- Haul Pro as an auto-renewing Razorpay subscription: Subscribe (₹349 a month or ₹3,499 a year) starts it on your account; Pay once stays for a single month or year.
+
 ## Haul 1.0.8 — 09-Nov-2026
 
 - Fixed: copying and moving did nothing — Haul put its log options after the file paths, so rclone printed its usage instead of transferring. The test stand-in now refuses that exactly as rclone does.

@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## Haul 1.0.15 — 09-Nov-2026
+
+- Finder disks keep macOS clutter (.DS_Store, ._ files, "A Document Being Saved By" folders) off the server, and always unmount even when Finder holds them.
+- Finder disks work on macOS 27: Haul serves the disk itself and mounts it with mount_nfs (rclone's nfsmount failed with "invalid file system").
 ## Haul 1.0.14 — 09-Nov-2026
 
 - FTP much faster, like FileZilla: every connection uploads, checks no longer hold connections, no re-check after each upload.

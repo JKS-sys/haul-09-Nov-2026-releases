@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## Haul 1.0.4 — 09-Nov-2026
+
 - New: drag to select files — press beside a name and draw a box; ⌘ while dragging deselects rows already selected, clicking empty space clears.
 - Fixed: copying onto a file of the same name now really replaces it (FTP servers report no usable date, so it used to be skipped); you can also choose Skip.
 

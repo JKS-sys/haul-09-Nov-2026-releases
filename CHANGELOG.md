@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+## Haul 1.0.13 — 09-Nov-2026
+
+- Finder disks: wait up to a minute for slow FTP logins, mount beside a disk macOS won't release, and say why when a mount fails.
+- Fixed: single files failed with "can't limit to single files when using filters".
+- Errors now reach the ipconfig dashboard (Crashes & errors): sent to /errors in batches under the size limit, retried when offline.
 ## Haul 1.0.12 — 09-Nov-2026
 
 - Unfinished transfers resume by themselves after a quit, crash or update.

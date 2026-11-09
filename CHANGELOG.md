@@ -2,6 +2,14 @@
 
 ## Unreleased
 
+## Haul 1.0.8 — 09-Nov-2026
+
+- Fixed: copying and moving did nothing — Haul put its log options after the file paths, so rclone printed its usage instead of transferring. The test stand-in now refuses that exactly as rclone does.
+
+- Settings › Updates and reports: a Check for updates button with the version and when Haul last looked.
+- Fixed: Download and install unpacks the update with tar (the release is a tar.gz); if anything fails, the window offers Try again and the DMG, and the failure reaches the creator's dashboard.
+- Haul Pro: ₹349 a month, ₹3,499 a year.
+
 ## Haul 1.0.7 — 09-Nov-2026
 
 - Fixed: the Activity and diagnostics window and every other window now fit the screen in short windows and scroll inside, instead of being cut off; long paths wrap.

@@ -2,6 +2,16 @@
 
 ## Unreleased
 
+## Haul 1.0.10 — 09-Nov-2026
+
+- Even faster: several selected items now go across in ONE rclone run (one start-up and one login, every file in parallel) instead of one run each; a single file skips listing the destination folder; fast listing for S3, B2 and Drive.
+- Settings › Transfers: pieces per big file (1–32) and connections per FTP/SFTP server (1–32), for servers that allow more — or fewer.
+
+- Updates come from GitHub by default; the Cloudflare copy on ipconfig.co.network is the fallback when GitHub is slow or unreachable.
+
+- Much faster transfers: 16 files at once by default (free up to 8, Pro up to 64), up to 16 items running together, big files split into 8 parallel streams, 32 checkers, a 64 MB read-ahead, and parallel connections for FTP (8), SFTP (64), S3, B2, Drive, OneDrive and Dropbox.
+- Faster updates: the feed on ipconfig.co.network now points at Cloudflare copies of the download; a slow or failed download switches to the other copy (GitHub) by itself.
+
 ## Haul 1.0.9 — 09-Nov-2026
 
 - Haul Pro as an auto-renewing Razorpay subscription: Subscribe (₹349 a month or ₹3,499 a year) starts it on your account; Pay once stays for a single month or year.

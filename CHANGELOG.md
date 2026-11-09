@@ -2,11 +2,11 @@
 
 ## Unreleased
 
-<<<<<<< HEAD
+## Haul 1.0.5 — 09-Nov-2026
+
 - New app icon in the same style as the creator's other apps (dark tile, amber glow, amber crate, teal arrows).
-=======
+
 ## Haul 1.0.4 — 09-Nov-2026
->>>>>>> origin/main
 
 - New: drag to select files — press beside a name and draw a box; ⌘ while dragging deselects rows already selected, clicking empty space clears.
 - Fixed: copying onto a file of the same name now really replaces it (FTP servers report no usable date, so it used to be skipped); you can also choose Skip.

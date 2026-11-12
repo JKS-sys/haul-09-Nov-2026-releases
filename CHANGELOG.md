@@ -2,12 +2,17 @@
 
 ## Unreleased
 
+## Haul 1.0.18 — 12-Nov-2026
+
 ## Haul 1.0.17 — 12-Nov-2026
 
 ## Haul 1.0.16 — 12-Nov-2026
 
 ## Haul 1.0.15 — 09-Nov-2026
 
+- Finder disks stay mounted after Haul quits or updates; the next Haul takes them over. Unmount in Haul to remove one (Settings has a switch for the old behaviour).
+- Finder disk repairs itself: a failed mount is cleared and retried, then started with an empty cache, before any error is shown.
+- Finder disk: no longer gives up while it is picking up files left to upload from last time.
 - Finder disk: a server that does not answer now fails in 15 s with the real reason instead of a minute's wait.
 - FTP never opens more connections than the Settings number (hosts block an address that goes over).
 - Logs: level tiles you can click (done, info, warnings, errors), a half-hour timeline, day headings, "12 s ago" times, newest/oldest order, compact view, pause, copy one line, save to a file.

@@ -2,10 +2,14 @@
 
 ## Unreleased
 
+## Haul 1.0.17 — 12-Nov-2026
+
 ## Haul 1.0.16 — 12-Nov-2026
 
 ## Haul 1.0.15 — 09-Nov-2026
 
+- Finder disk: a server that does not answer now fails in 15 s with the real reason instead of a minute's wait.
+- FTP never opens more connections than the Settings number (hosts block an address that goes over).
 - Logs: level tiles you can click (done, info, warnings, errors), a half-hour timeline, day headings, "12 s ago" times, newest/oldest order, compact view, pause, copy one line, save to a file.
 - More colour in logs: sizes and speeds, arrows, file names, links, and words like copying, skipped and connected each get their own colour (no pink).
 - Transfers: live speed graph with the peak, moving shine on running bars; new sounds for filtering, ordering, pausing and saving logs and for a speed jump.

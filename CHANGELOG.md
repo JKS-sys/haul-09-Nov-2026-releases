@@ -2,8 +2,16 @@
 
 ## Unreleased
 
+## Haul 1.0.16 — 12-Nov-2026
+
 ## Haul 1.0.15 — 09-Nov-2026
 
+- Logs: level tiles you can click (done, info, warnings, errors), a half-hour timeline, day headings, "12 s ago" times, newest/oldest order, compact view, pause, copy one line, save to a file.
+- More colour in logs: sizes and speeds, arrows, file names, links, and words like copying, skipped and connected each get their own colour (no pink).
+- Transfers: live speed graph with the peak, moving shine on running bars; new sounds for filtering, ordering, pausing and saving logs and for a speed jump.
+- FTP downloads: files from 8 MB come down over several connections at once.
+- Server folders you have opened before show instantly while the fresh listing loads.
+- Checked for overlaps at five window sizes from 420x320 up (new test/overlap.mjs).
 - Finder disks keep macOS clutter (.DS_Store, ._ files, "A Document Being Saved By" folders) off the server, and always unmount even when Finder holds them.
 - Finder disks work on macOS 27: Haul serves the disk itself and mounts it with mount_nfs (rclone's nfsmount failed with "invalid file system").
 ## Haul 1.0.14 — 09-Nov-2026
